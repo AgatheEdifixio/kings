@@ -11,12 +11,16 @@ import { GenealogieComponent } from './genealogie/genealogie.component';
 import { RoisComponent } from './rois/rois.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { Louis14Component } from './pages/Louis14/louis14/louis14.component';
+import { DynastieComponent } from './dynastie/dynastie.component';
 
 const appRoutes : Routes =[
   { path: '', component: HomeComponent},
   { path: 'funfacts', component: FunfactsComponent },
   { path: 'genealogie', component: GenealogieComponent},
-  { path: 'rois-de-france', component: RoisComponent}
+  { path: 'rois-de-france', component: RoisComponent},
+  { path: 'dynastie', component: DynastieComponent},
+  { path: 'LouisXIV', component: Louis14Component}
 ]; 
 
 @NgModule({
@@ -28,7 +32,9 @@ const appRoutes : Routes =[
     GenealogieComponent,
     RoisComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    Louis14Component,
+    DynastieComponent
   ],
   imports: [
     BrowserModule,

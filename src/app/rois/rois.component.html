@@ -1,6 +1,37 @@
 <p>QUoi de neuf dans la monarchie ? </p>
-<p>Du coté des Mérovingiens</p>
-<p>Passons voir les Carolingiens</p>
-<p>Coucou les Capétiens</p>
-<p>Ces chèrs Valois</p>
-<p>On termine par les Bourbons</p>
+
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Du coté des Mérovingiens</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Passons voir les Carolingiens</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Coucou les Capétiens</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" >Ces chèrs Valois</a>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"[routerLink]="['/dynastie']">On termine par les Bourbons</a>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Henri IV</li>
+            <li class="list-group-item"><a [routerLink]="['/LouisXIV']">Louis XIII</a></li>
+            <li class="list-group-item">Louis XIV</li>
+            <li class="list-group-item">Louis XV</li>
+            <li class="list-group-item">Louis XVI</li>
+          </ul>
+      <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+    </li>
+
+  </ul>
+
+<!-- fun fact aléatoire  -->
