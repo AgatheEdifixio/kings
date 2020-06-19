@@ -1,13 +1,11 @@
 .background{
-    background: url("nav.jpg")
+    background: url("nav.png");
 }
 
 .portrait{
     max-width: 21%;
     height: auto;
     margin: 0 auto;
-    /* width: 100px; */
-    /* height: 100px; */
     background-color: #ccc;
     border-radius: 3px;
 

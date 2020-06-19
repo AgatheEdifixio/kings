@@ -2,6 +2,7 @@ h2{
     text-align: center;
     margin: 2px;
     font-family: lustria;
+    padding: 5px;
 }
 
 .list-group-item{
@@ -10,5 +11,9 @@ h2{
 
 .nav-link{
     text-align: center;
+}
+
+ .container{
+        background-color: aquamarine;
 }
 
