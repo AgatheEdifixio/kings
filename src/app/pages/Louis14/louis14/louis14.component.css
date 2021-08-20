@@ -2,12 +2,73 @@
     background: url("nav.png");
 }
 
+body{
+    margin: 1px;
+}
+
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+
+}
+
+
 .portrait{
-    max-width: 21%;
-    height: auto;
-    margin: 0 auto;
-    background-color: #ccc;
+   max-width: 25%; 
+   min-width: 300px;
+/*    min-width: 21%; */
     border-radius: 3px;
 
 }
 
+.infos{
+    background-color: azure;
+  max-width: 25%;
+    min-width: 300px;
+}
+
+ul{
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+.bref {
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/*  li{
+    list-style: none;
+} 
+ */
+
+ .contenu{
+     padding: 5px;
+     margin: auto;
+     width: 60%;
+    background-color: wheat;
+    margin-top: 30px;
+
+ }
+
+ p{
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .topic{
+     padding: 5px;
+     margin: 10px;
+ }
+
+ .maitresse{
+    font-weight: bold;
+  /*   text-decoration: none; */
+ }
